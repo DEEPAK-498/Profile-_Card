@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+/* Global */
 *{
   padding: 0;
   margin: 0;
@@ -6,6 +7,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
+/* Body */
 body{
   height: 100vh;
   display: flex;
@@ -14,6 +16,7 @@ body{
   background-color: #f4f4f4;
 }
 
+/* Profile */
 .profile-card{
   display: flex;
   flex-direction: column;
@@ -75,6 +78,7 @@ body{
   font-weight: 400;
 }
 
+/* Social Media Icons */
 .profile-card .media-btn{
   display: flex;
   align-items: center;
@@ -96,6 +100,7 @@ body{
   text-decoration: none;
 } 
 
+/* Buttons */
 .profile-card .buttons{
   display: flex;
   align-items: center;
@@ -124,6 +129,7 @@ body{
   background-color: #000;
 }
 
+/* Line */
 #line{
    display:block;
    width:50%;
@@ -132,16 +138,16 @@ body{
    border-top: 3px solid rgba(0, 0, 0, 0.4);
 }
 
-/* .profile-card .about{
+/* Description */
+.profile-card .about{
   display: flex;
   align-items: center;
   margin-top: 20px;
 }
 
 .about .abt-text{
-  display: flex;
-  align-items: center;
+  text-align: center;
   padding: 0 10px;
   font-size: 18px;
   font-weight: 400;
-} */
+}
